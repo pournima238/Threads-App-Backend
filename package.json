@@ -1,0 +1,32 @@
+{
+  "name": "threads-app-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "dev": "tsc-watch --onSuccess \"npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pournima238/Threads-App-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pournima238/Threads-App-Backend/issues"
+  },
+  "homepage": "https://github.com/pournima238/Threads-App-Backend#readme",
+  "dependencies": {
+    "@apollo/server": "^5.0.0",
+    "@as-integrations/express4": "^1.1.2",
+    "express": "^4.21.2",
+    "graphql": "^16.11.0",
+    "tsc-watch": "^7.1.1",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3"
+  }
+}
